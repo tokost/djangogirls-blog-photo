@@ -1,0 +1,37 @@
+body {
+	background-color: #bbd3f9
+}
+
+h2 a {
+	color: #0e90d6;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px
+}
+
+p {
+	font-family: 'Zilla Slab', serif;
+}
+
+
+
+.page-header {
+	background-color: #f3d250;
+	margin-top: 0;
+	padding: 20px 20px 20px 40px;
+	margin-bottom: 0
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+	color: #ffffff;
+	font-family: 'Karla', sans-serif;
+	font-size: 36px;
+	text-align: center;
+}
+
+.post h2 {
+	color: #cb2d6f;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	margin-top: 0;
+	margin-left: 40px;
+}

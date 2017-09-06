@@ -1,5 +1,56 @@
-body {
-	background-color: #bbd3f9
+.page-header {
+	background-color: #ffd23f; /* sunglow yellow */
+	margin-top: 0;
+	padding: 20px 20px 20px 40px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+	color: #5a5b5b; /*gray*/
+	font-family: 'Karla', sans-serif;
+	font-size: 36px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.content {
+	margin-left: 40px
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Montserrat', sans-serif;
+	color: #540d6e;
+}
+
+.date {
+	color: #7a7a79;
+	font-family: 'Zilla Slab', serif;
+	font-size: 12px;
+}
+
+.save {
+	float: right;
+}
+
+.post-form textarea, .post-form input {
+	width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+	color: #7fb7b3;
+}
+
+.post {
+	margin-bottom: 70px;
+}
+
+
+.post h1 a, .post h1 a:visited{
+	color: #a84888;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	margin-top: 0;
+	margin-left: 40px;
 }
 
 h2 a {
@@ -8,30 +59,7 @@ h2 a {
 	font-size: 24px
 }
 
-p {
+.post p {
 	font-family: 'Zilla Slab', serif;
-}
+} 
 
-
-
-.page-header {
-	background-color: #f3d250;
-	margin-top: 0;
-	padding: 20px 20px 20px 40px;
-	margin-bottom: 0
-}
-
-.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-	color: #ffffff;
-	font-family: 'Karla', sans-serif;
-	font-size: 36px;
-	text-align: center;
-}
-
-.post h2 {
-	color: #cb2d6f;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 24px;
-	margin-top: 0;
-	margin-left: 40px;
-}

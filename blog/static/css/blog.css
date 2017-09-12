@@ -45,7 +45,7 @@ h1, h2, h3, h4 {
 
 
 .post h1 a, .post h1 a:visited{
-	color: #a84888;
+	color: #5995f7;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 24px;
@@ -54,7 +54,7 @@ h1, h2, h3, h4 {
 }
 
 h2 a {
-	color: #0e90d6;
+	color: #3bceac;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 24px
 }

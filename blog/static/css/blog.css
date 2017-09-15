@@ -2,6 +2,7 @@
 	background-color: #ffd23f; /* sunglow yellow */
 	margin-top: 0;
 	padding: 20px 20px 20px 40px;
+	position: fixed;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -22,7 +23,7 @@ h1, h2, h3, h4 {
 }
 
 .date {
-	color: #7a7a79;
+	color: #61cea8;
 	font-family: 'Zilla Slab', serif;
 	font-size: 12px;
 }
@@ -44,8 +45,8 @@ h1, h2, h3, h4 {
 }
 
 
-.post h1 a, .post h1 a:visited{
-	color: #5995f7;
+.post h1, h1 a, .post h1 a:visited{
+	color: #4286f4;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 24px;
@@ -54,7 +55,7 @@ h1, h2, h3, h4 {
 }
 
 h2 a {
-	color: #3bceac;
+	color: #4286f4;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 24px
 }
@@ -65,4 +66,27 @@ h2 a {
 
 .comment {
     margin: 20px 0px 20px 20px;
+    color: #a1a3a2;
+    font-family: 'Zilla Slab', sans-serif;
+    font-size: 12px
+}
+
+.footer {
+  background: #aeaeaf;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+}
+.footer a {
+  color: #70726F;
+  font-size: 25px;
+  padding: 10px;
+  border-right: 1px solid #70726F;
+  transition: all .5s ease;
+}
+.footer a:first-child {
+  border-left: 1px solid #70726F;
+}
+.footer a:hover {
+  color: white;
 }

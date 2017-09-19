@@ -1,5 +1,5 @@
 .page-header {
-	background-color: #ffd23f; /* sunglow yellow */
+	background-color: #fcf374; 
 	margin-top: 0px;;
 	padding: 20px 20px 20px 40px;
 	position:relative;
@@ -8,7 +8,7 @@
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
 	color: #5a5b5b; /*gray*/
-	font-family: 'Karla', sans-serif;
+	font-family: 'Muli', sans-serif;
 	font-size: 36px;
 	text-align: center;
 	font-weight: bold;
@@ -20,11 +20,11 @@
 
 h1, h2, h3, h4 {
 	font-family: 'Montserrat', sans-serif;
-	color: #540d6e;
+	color: #a7b3ba;
 }
 
 .date {
-	color: #61cea8;
+	color: #7ba9c4;
 	font-family: 'Zilla Slab', serif;
 	font-size: 12px;
 }
@@ -38,7 +38,7 @@ h1, h2, h3, h4 {
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-	color: #7fb7b3;
+	color: #7ba9c4;
 }
 
 .post {
@@ -47,7 +47,7 @@ h1, h2, h3, h4 {
 
 
 .post h1, h1 a, .post h1 a:visited{
-	color: #4286f4;
+	color: #a7b3ba;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 24px;
@@ -56,7 +56,7 @@ h1, h2, h3, h4 {
 }
 
 h2 a {
-	color: #4286f4;
+	color: #a7b3ba;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 24px
 }
@@ -67,7 +67,7 @@ h2 a {
 
 .comment {
     margin: 20px 0px 20px 20px;
-    color: #a1a3a2;
+    color: #a7b3ba;
     font-family: 'Zilla Slab', sans-serif;
     font-size: 12px
 }

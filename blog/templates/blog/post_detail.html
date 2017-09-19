@@ -16,8 +16,15 @@
             <a href="{% url 'login' %}" class="top-menu"><span class="glyphicon glyphicon-lock"></span></a>
 		{% endif %}
 		<h1>{{ post.title }}</h1>
-		<p>{{ post.text|linebreaksbr }}</p>
+		<div>
+		<span style="float:left; width: 80%">
+			<p>{{ post.text|linebreaksbr }}</p>
+		</span>
+		<span style="float:right;width: 20%">
+			<img src="{{ post.model_pic.url }}"/>
+		 </span>
 	</div>
+</div>
 
 	<hr>
 	<a class="btn btn-default" href="{% url 'add_comment_to_post' pk=post.pk %}">Add your comment below!</a>

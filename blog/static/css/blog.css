@@ -47,7 +47,7 @@ h1, h2, h3, h4 {
 
 
 .post h1, h1 a, .post h1 a:visited{
-	color: #a7b3ba;
+	color: #577ab2;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 24px;
@@ -67,7 +67,7 @@ h2 a {
 
 .comment {
     margin: 20px 0px 20px 20px;
-    color: #a7b3ba;
+    color: #7ba9c4;
     font-family: 'Zilla Slab', sans-serif;
     font-size: 12px
 }

@@ -1,5 +1,4 @@
 {% extends 'blog/base.html' %}
-{% load markdown_deux_tags %}
 
 {% block content %}
     {% for post in posts %}
@@ -8,7 +7,7 @@
             <div class="date">
                 {{ post.published_date }}
             </div>
-            {{ post.text|markdown }}
+            {{ post.text }}
             {{ post.tags }}
             <a href="{% url 'post_detail' pk=post.pk %}" class="comment">Comments: {{ post.approved_comments.count }}</a>
         </div>

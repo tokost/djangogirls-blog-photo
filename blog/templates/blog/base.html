@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 {% load static %}
 
-<html>
+<html lang="en">
 	<head>
-		<title>katie jolly</title>
+		<title>tomáš tokoš</title>
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="{% static 'css/blog.css' %}">
@@ -11,17 +11,26 @@
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
 		<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/d3988580af.js" crossorigin="anonymous"></script> <!-- pridane kvoli awesome kitu-->
 	</head>
 	<body>
 		<div class = "page-header">
 		{% if user.is_authenticated %}
 			<a href="{% url 'post_new' %}" class = "top-menu"><span class = "glyphicon glyphicon-plus"></span></a>
 			<a href="{% url 'post_draft_list' %}" class="top-menu"><span class="glyphicon glyphicon-edit"></span></a>
-			<p class="top-menu">Hello {{ user.username }} <small>(<a href="{% url 'logout' %}">Log out</a>)</small></p>
+			<p class="top-menu">Hallo {{ user.username }} <small>(<a href="{% url 'logout' %}">Odhlásiť sa</a>)</small></p>
+
+            <a href="{% url 'post_list' %}" class="btn btn-primary btn-lg btn-block"
+               style="margin-button: 10px; border-radius: 10px !important" role="button">Chcete si vymienať a komentovať správy</a>
+            <a href="{% url 'gallery' %}" class="btn btn-primary btn-lg btn-block"
+               style="margin-button: 10px; border-radius: 10px !important" role="button">Chcete si pozerať a pridávať fotografie</a>
+            <a href="{% url 'logout' %}" class="btn btn-primary btn-lg btn-block"
+               style="margin-button: 10px; border-radius: 10px !important" role="button">Chcete ukoncit túto aplikáciu</a>
+
 		{% else %}
             <a href="{% url 'login' %}" class="top-menu"><span class="glyphicon glyphicon-lock"></span></a>
 		{% endif %}
-			<h1><a href="/">katie jolly</a></h1>
+			<h1><a href="/">tomáš tokoš</a></h1>
 		</div>
 		<div class = "content container">
 			<div class = "row">
@@ -36,8 +45,33 @@
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
 	<footer class="footer">
   		<div class="container text-center">
-   		 <a href="https://www.linkedin.com/in/katie-jolly-6001987b/ target="_blank""><i class="fa fa-linkedin"></i></a>
-    	<a href="https://github.com/katiejolly/djangogirls-blog" target="_blank"><i class="fa fa-github"></i></a>
-  </div>
-</footer>
+            <!-- Google -->
+   		    <a href="https://www.google.com/" target="_blank" class="icon-twitter">
+                <i class="fa fa-google"></i></a>
+            <!-- Twiter -->
+   		    <a href="https://twitter.com/home" target="_blank" class="icon-twitter">
+                <i class="fa fa-twitter"></i></a>
+            <!-- Instagram -->
+   		    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <!-- my linkedin -->
+   		    <a href="https://www.linkedin.com/in/katie-jolly-6001987b/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <!-- my GitHub -->
+    	    <a href="https://github.com/katiejolly/djangogirls-blog" target="_blank">
+                <i class="fa fa-github"></i></a>
+            <!-- Facebook -->
+            <a href="https://facebook.com/tomas.tokos.58/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <!-- Whatsapp -->
+            <a href="https://api.whatsapp.com/send?phone=+421907834599" target="_blank"><i class="fa fa-whatsapp"></i></a>
+            <!-- Messenger ikona je pouzita z free awesome kit v.6 -->
+            <a href="https://www.messenger.com/t/100000725126539/" target="_blank">
+                <i class="fab fa-facebook-messenger"></i></a>
+            <!-- Youtube -->
+            <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a>
+            <!-- Garmin Connect -->
+            <a href="https://connect.garmin.com/" target="_blank"><i class="fa fa-garmin"></i>Garmin</a>
+            <!-- Mapy.cz -->
+            <a href="https://sk.mapy.cz/turisticka?profil&x=17.2184730&y=48.2856761&z=16&l=0" target="_blank"><i class="fa fa-mapy"></i>Mapy</a>
+
+        </div>
+    </footer>
 </html>
